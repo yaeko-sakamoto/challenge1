@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    color: #4c4c4c;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+
+body {
+    margin: 60px 40px;
+}
+
+.all {
+    max-width: 960px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.site-description > p {
+font-size: 20px;
+clear: #777777;
+padding-top: 5px;
+position: relative;
+font-family: serif;
+}
+
+.site-description {
+    padding: 0px 70px 10px 0px;
+    text-align: left;
+    display: inline-block
+}
+.site-top {
+    display: flex;
+    justify-content:space-between;
+    font-size: 16px;
+    color: black;
+    align-items: center;
+    padding-right: 30px;
+
+}
+
+
+.navi ul {
+    display: flex;
+    justify-content:space-around;
+}
+
+.navi a {
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image {
+    width: 100%;
+margin: 70px 0px;
+}
+
+
+.navi ul li {
+    padding: 0px 20px;
+    justify-content: space-around;
+}
+
+.navi img {
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 50px;
+    text-align: end;
+}
+
+.text {
+    font-size: 27px;
+    color: #777777;
+    font-family: serif;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+}
+
+
+.wrap {
+display: flex;
+justify-content: space-between;
+}
+.date  {
+    font-size: 18px;
+    padding-right: 300px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-family: serif;
+}
+
+p {
+    word-wrap: normal;
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #777777;
+    font-family: serif;
+}
+
+.post {
+margin-bottom: 75px;
+
+}
+
+h2 {
+    font-size: 23px;
+    padding-bottom: 30px;
+    font-family: serif;
+}
+
+.next a {
+    border-width: 1px;
+    border-style: solid;
+    padding: 8px 18px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-family: Georgia;
+}
+.next {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.image-profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    font-family: serif;
+}
+
+.profile {
+    margin-top: 100px;
+    border-top: 1px solid #777777;
+    padding-top: 100px;
+    grid-column:auto
+}
+.name {
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+}
+
